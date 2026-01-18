@@ -19,9 +19,6 @@
 ### Todos & Albums
 ![Todos](public/todos.png)
 
-### Photos
-![Photos](public/photos.png)
-
 ---
 
 ## Features
