@@ -116,36 +116,6 @@ connectpro/
 
 ---
 
-## 🔌 API Endpoints
-
-The application uses JSON Server to simulate a REST API. Available endpoints:
-
-### Users
-- `GET /users` - Get all users
-- `GET /users/:id` - Get user by ID
-- `POST /users` - Create new user
-- `PUT /users/:id` - Update user
-- `DELETE /users/:id` - Delete user
-
-### Posts
-- `GET /posts` - Get all posts
-- `GET /posts/:id` - Get post by ID
-- `POST /posts` - Create new post
-- `PUT /posts/:id` - Update post
-- `DELETE /posts/:id` - Delete post
-
-### Comments
-- `GET /comments` - Get all comments
-- `GET /comments/:id` - Get comment by ID
-- `POST /comments` - Create new comment
-
-### Other
-- `GET /todos` - Get all todos
-- `GET /albums` - Get all photo albums
-- `GET /photos` - Get all photos
-
----
-
 ## Future Improvements
 
 * Real backend integration (Node.js + Express + database)
@@ -155,53 +125,16 @@ The application uses JSON Server to simulate a REST API. Available endpoints:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
-We welcome contributions! Please follow these steps:
-
-1. **Fork the repository**
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. **Make your changes** and test thoroughly
-4. **Commit your changes**
-   ```bash
-   git commit -m 'Add: brief description of your feature'
-   ```
-5. **Push to your branch**
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-6. **Open a Pull Request**
-
-### Development Guidelines
-- Follow React best practices
-- Use meaningful commit messages
-- Write clean, readable code
-- Test your changes
-- Update documentation when needed
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/your-feature`
+3. Make your changes and commit: `git commit -m 'Add some feature'`
+4. Push to your branch: `git push origin feature/your-feature`
+5. Open a Pull Request
 
 ---
 
-## 📞 Contact
-
-**Tzippi Tzukrov**
-- GitHub: [@TzippiTzukrov](https://github.com/TzippiTzukrov)
-- LinkedIn: [Your LinkedIn Profile]
-- Email: your.email@example.com
-
----
-
-## 🙏 Acknowledgments
-
-- Built with [React](https://reactjs.org/)
-- Powered by [Vite](https://vitejs.dev/)
-- Mock API by [JSON Server](https://github.com/typicode/json-server)
-- Icons and assets from various open-source projects
-
----
-
-## 📄 License
+## License
 
 MIT License © 2026 Tzippi Tzukrov
