@@ -1,0 +1,229 @@
+
+
+.people-feed {
+  background: white !important;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 16px;
+  width: 100%;
+}
+
+
+.people-feed-header {
+  padding: 16px 20px !important;
+  border-bottom: 1px solid #f0f0f0 !important;
+}
+
+.people-feed-header h3 {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  margin-bottom: 4px !important;
+}
+
+.people-count {
+  margin: 0 !important;
+  font-size: 14px !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+
+.people-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 12px !important;
+  padding: 12px !important;
+  background-color: white !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+
+.person-card {
+  background: white !important;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 8px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  padding: 0 0 16px 0 !important;
+  position: relative !important;
+  min-height: 330px !important; 
+  transition: box-shadow 0.2s ease !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.person-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12) !important;
+}
+
+
+.person-header {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.person-header::before {
+  content: "" !important;
+  display: block !important;
+  height: 62px !important;
+  width: 100% !important;
+  background: linear-gradient(to bottom, #93a8b7, #dce5ea) !important;
+  border-radius: 7px 7px 0 0 !important;
+}
+
+
+.person-avatar {
+  width: 72px !important;
+  height: 72px !important;
+  border-radius: 50% !important;
+  border: 3px solid white !important;
+  margin-top: -36px !important;
+  z-index: 1 !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+  
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: white !important;
+  font-size: 28px !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+}
+
+
+.person-info {
+  padding: 0 12px !important;
+  text-align: center !important;
+  flex-grow: 1 !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.person-name {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  margin: 12px 0 4px 0 !important;
+  color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.person-company {
+  font-size: 13px !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+  margin-bottom: 4px !important;
+  line-height: 1.3 !important;
+}
+
+
+.person-email {
+  display: block !important;
+  font-size: 12px !important;
+  color: rgba(0, 0, 0, 0.45) !important;
+  margin-bottom: 10px !important;
+  word-break: break-all !important;
+}
+
+
+.view-profile-btn {
+  background: white !important;
+  color: #0a66c2 !important;
+  border: 1px solid #0a66c2 !important;
+  padding: 6px 20px !important;
+  border-radius: 20px !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  cursor: pointer !important;
+  margin-top: auto !important;
+  margin-bottom: 4px !important;
+}
+
+
+.load-more-container {
+  display: flex !important;
+  justify-content: center !important;
+  padding: 12px !important;
+  background: white !important;
+  border-top: 1px solid #f0f0f0 !important;
+}
+
+.load-more-people-btn {
+  background: transparent !important;
+  border: 1.5px solid transparent !important;
+  color: #0a66c2 !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  padding: 8px 16px !important;
+  border-radius: 20px !important;
+  transition: all 0.2s ease !important;
+}
+
+.load-more-people-btn:hover {
+  text-decoration: underline !important;
+  text-decoration-thickness: 1.3px !important;
+  text-underline-offset: 3px !important;
+  border-color: #0a66c2 !important;
+}
+
+
+.no-more-people {
+  text-align: center !important;
+  padding: 20px !important;
+  font-size: 14px !important;
+  color: #888 !important;
+  font-style: italic !important;
+  background-color: white !important; 
+  border-top: 1px solid #f0f0f0 !important;
+}
+
+.no-more-people p {
+  margin: 0 !important;
+}
+
+.people-loading {
+  text-align: center;
+  padding: 24px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+
+@media (max-width: 768px) {
+  .people-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 8px !important;
+    padding: 8px !important;
+  }
+  
+  .person-card {
+    min-height: 300px !important;
+    padding: 0 0 12px 0 !important;
+  }
+  
+  .person-name {
+    font-size: 14px !important;
+    margin: 8px 0 4px 0 !important;
+  }
+  
+  .person-company {
+    font-size: 12px !important;
+  }
+  
+  .person-email {
+    font-size: 11px !important;
+  }
+  
+  .view-profile-btn {
+    padding: 5px 16px !important;
+    font-size: 14px !important;
+  }
+}

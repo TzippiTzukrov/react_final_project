@@ -1,0 +1,68 @@
+
+.login-page {
+  min-height: 100vh;
+  background: #f3f2ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+}
+
+.connectpro-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 100px;
+}
+
+.connectpro-logo {
+  height: 34px;
+  width: auto;
+}
+.login-page {
+  min-height: 100vh;
+  background: #f3f2ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+}
+
+.connectpro-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 100px;
+}
+
+.connectpro-logo {
+  height: 34px;
+  width: auto;
+}
+
+
+.login-footer {
+  margin-top: 24px; 
+  text-align: center;
+}
+
+.login-footer span {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+}
+
+.login-footer button {
+  background: none;
+  border: none;
+  color: #0a66c2;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.login-footer button:hover {
+  text-decoration: underline;
+}

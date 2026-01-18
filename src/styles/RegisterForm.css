@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+}
+
+.join-wrapper {
+  background: #f3f2ef;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.connectpro-logo {
+  width: 36px;
+  margin-bottom: 12px;
+}
+
+.join-title {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .join-title {
+    font-size: 24px;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .join-title {
+    font-size: 20px;
+    padding: 0 12px;
+  }
+}
+
+.join-card {
+  background: #fff;
+  width: 100%;
+  max-width: 400px;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.join-card label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 8px;
+  display: block;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.join-card input[type="email"],
+.join-card input[type="password"],
+.join-card input[type="text"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  font-size: 16px;
+  background: white;
+  transition: border-color 0.2s ease;
+}
+
+.join-card input[type="email"]:focus,
+.join-card input[type="password"]:focus,
+.join-card input[type="text"]:focus {
+  outline: none;
+  border-color: #0a66c2;
+  box-shadow: 0 0 0 1px #0a66c2;
+}
+
+.password-wrapper {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.password-wrapper input {
+  margin-bottom: 0;
+  padding-right: 60px;
+  margin-top: 4px;
+}
+
+.show-btn {
+  position: absolute;
+  right: 16px;
+  top: 45%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #0a66c2;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0;
+}
+
+.show-btn:hover,
+.show-btn:focus,
+.show-btn:active {
+  background: none;
+  border: none;
+  color: #0a66c2;
+  transform: translateY(-50%);
+  outline: none;
+}
+
+.policy-text {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 12px 0;
+  text-align: center;
+}
+
+.policy-text a {
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+.primary-btn {
+  width: 100%;
+  background: #0a66c2;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.primary-btn:hover {
+  background: #004182;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.divider span {
+  margin: 0 16px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+}
+
+.social-btn {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.9) !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+
+.social-btn:hover {
+  background: rgba(0, 0, 0, 0.08) !important;
+  border-color: rgba(0, 0, 0, 0.8) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.social-btn img {
+  width: 18px;
+  height: 18px;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.footer-text a {
+  color: #0a66c2;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signup {
+  margin-top: -80px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.signup span {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+}
+
+.signup button {
+  background: none;
+  border: none;
+  color: #0a66c2;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.signup button:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+  .signup {
+    margin-top: -150px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+}

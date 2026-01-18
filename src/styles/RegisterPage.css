@@ -1,0 +1,47 @@
+
+.register-page {
+  min-height: 100vh;
+  background: #f3f2ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0 40px 0;
+}
+
+.connectpro-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+  margin-top: 20px;
+  padding-left: 100px;
+}
+
+.connectpro-logo {
+  height: 34px;
+  width: auto;
+}
+
+.register-footer {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.register-footer span {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+}
+
+.register-footer button {
+  background: none;
+  border: none;
+  color: #0a66c2;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.register-footer button:hover {
+  text-decoration: underline;
+}

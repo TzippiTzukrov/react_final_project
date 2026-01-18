@@ -1,0 +1,146 @@
+
+
+.entry {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.entry-header {
+  padding: 16px 40px !important;
+  border-bottom: 1px solid #e0e0e0 !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  background-color: #ffffff !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.entry-header-logo {
+  height: 28px !important;
+  width: auto !important;
+  margin: 0 !important;
+  display: block !important;
+}
+
+.entry-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.entry-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  max-width: 1128px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.entry-left {
+  flex: 1;
+  max-width: 450px;
+}
+
+.entry-title {
+  font-size: 48px;
+  font-weight: 400;
+  color: #8f5849;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+
+.btn-signin,
+.btn-join {
+  width: 100%;
+  max-width: 400px;
+  height: 52px;
+  border-radius: 26px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  border: none;
+}
+
+.btn-signin {
+  background-color: transparent;
+  color: #0a66c2;
+  border: 1px solid #0a66c2;
+}
+
+.btn-signin:hover {
+  background-color: #e7f2fa;
+  border-color: #004182;
+  color: #004182;
+}
+
+.btn-join {
+  background-color: #0a66c2;
+  color: #ffffff;
+}
+
+.btn-join:hover {
+  background-color: #004182;
+}
+
+
+.entry-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.entry-image {
+  max-width: 100%;
+  height: auto;
+  width: 700px;
+}
+
+
+@media (max-width: 992px) {
+  .entry-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .entry-left {
+    max-width: 100%;
+  }
+
+  .entry-title {
+    font-size: 36px;
+  }
+
+  .entry-right {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .entry-title {
+    font-size: 28px;
+  }
+
+  .btn-signin,
+  .btn-join {
+    height: 48px;
+    font-size: 15px;
+  }
+  
+  .entry-header {
+    padding: 12px 20px !important;
+  }
+}

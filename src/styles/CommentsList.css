@@ -1,0 +1,10 @@
+.comments-section {
+  background-color: #fff;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 8px;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+}
