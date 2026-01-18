@@ -11,10 +11,14 @@
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage](README/images/homepage.png)
+![Home Page 1](public/home-page1.png)  
+![Home Page 2](public/home-page2.png)
 
-### User Profile
-![Profile](README/images/profile.png)
+### Posts Feed
+![Posts](public/posts.png)
+
+### Todos & Albums
+![Todos](public/todos.png)
 
 ---
 
@@ -33,7 +37,7 @@
 ## Tech Stack
 
 * **Frontend:** React 19, Vite, React Router, CSS Modules
-* **Backend:** JSON Server (mock API), Local Storage
+* **Backend:** TypeCode (DB), Local Storage
 * **Tools:** ESLint, Concurrently
 
 ---
@@ -122,16 +126,6 @@ connectpro/
 * Private messaging system
 * Notifications and alerts
 * Add links to resumes and professional portfolios
-
----
-
-## Contributing
-
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature/your-feature`
-3. Make your changes and commit: `git commit -m 'Add some feature'`
-4. Push to your branch: `git push origin feature/your-feature`
-5. Open a Pull Request
 
 ---
 
