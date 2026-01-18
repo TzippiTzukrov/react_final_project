@@ -13,7 +13,7 @@
 ![Home Page 1](public/home-page1.png)  
 ![Home Page 2](public/home-page2.png)
 
-### Posts Feed
+### My Posts
 ![Posts](public/posts.png)
 
 ### Todos & Albums
