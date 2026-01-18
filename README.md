@@ -2,13 +2,12 @@
 
 ![ConnectPro Logo](public/full-logo.png)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![React](https://img.shields.io/badge/React-19.2.0-blue.svg)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-7.3.0-646CFF.svg)](https://vitejs.dev/)
-
 **ConnectPro** is a LinkedIn-style professional social network built with React and Vite. Connect with developers, designers, and managers in your professional community.
 
 ## 📸 Screenshots
+
+### Entrypage
+![Entry Page](public/entry-page.png)
 
 ### Homepage
 ![Home Page 1](public/home-page1.png)  
@@ -19,6 +18,9 @@
 
 ### Todos & Albums
 ![Todos](public/todos.png)
+
+### Photos
+![Photos](public/photos.png)
 
 ---
 
