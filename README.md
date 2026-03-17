@@ -1,6 +1,6 @@
 # ConnectPro - Professional Social Network
 
-## 🚀 **[👉 CLICK HERE — View Live Demo 👈](https://tzippitzukrov.github.io/react_final_project)**
+> 🔗 **Live Demo:** [Click here to view the live application](https://tzippitzukrov.github.io/react_final_project)
 
 ![ConnectPro Logo](public/full-logo.png)
 
