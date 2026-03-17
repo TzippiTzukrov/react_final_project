@@ -482,6 +482,29 @@
         "catchPhrase": "DevOps Engineer",
         "bs": "DevOps"
       }
+    },
+    {
+      "id": "c0e3",
+      "name": "ציפי צוקרוב",
+      "username": "Bretג",
+      "email": "tzippi1588@gmail.com",
+      "address": {
+        "street": "צפרירים 16/3 רמות א'",
+        "suite": "3",
+        "city": "ירושלים",
+        "zipcode": "9773029",
+        "geo": {
+          "lat": "",
+          "lng": ""
+        }
+      },
+      "phone": "+972556781588",
+      "website": "hildegard.orgג",
+      "company": {
+        "name": "8200 Unit",
+        "catchPhrase": "DevOps Engineer",
+        "bs": "DevOps"
+      }
     }
   ],
   "todos": [

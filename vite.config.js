@@ -9,6 +9,7 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/react_final_project/',
   server: {
     historyApiFallback: {
       index: '/index.html'
