@@ -79,7 +79,7 @@ function Header({ onSearch, searchOptions, searchDisabled = false }) {
       <div className="header-container">
         <div className="header-logo" onClick={goToHome}>
           <img 
-            src="/short-logo.png" 
+            src={`${import.meta.env.BASE_URL}short-logo.png`} 
             alt="ConnectPro" 
             className="connectpro-logo-img"
           />

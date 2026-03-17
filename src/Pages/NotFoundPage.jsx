@@ -8,7 +8,7 @@ function NotFoundPage() {
     <div className="not-found-page">
       <header className="header">
         <img 
-          src="/full-logo.png" 
+          src={`${import.meta.env.BASE_URL}full-logo.png`} 
           alt="ConnectPro"
           className="connectpro-logo"
         />

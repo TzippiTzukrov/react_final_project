@@ -23,7 +23,7 @@ function Register() {
       <div className="register-page">
         <div className="connectpro-header">
           <img 
-            src="/full-logo.png" 
+            src={`${import.meta.env.BASE_URL}full-logo.png`} 
             alt="ConnectPro"
             className="connectpro-logo"
             onClick={() => navigate("/entry")}

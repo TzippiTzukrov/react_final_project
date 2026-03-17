@@ -23,7 +23,7 @@ function AppRouter() {
     <ToastProvider>
       <UserProvider> 
         <FormProvider> 
-          <Router>
+          <Router basename="/react_final_project">
             <Routes>
               <Route path="/" element={<Navigate to="/entry" replace />} />
               

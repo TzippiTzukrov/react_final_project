@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://tzippitzukrov.github.io/react_final_project",
   "scripts": {
     "dev:client": "vite",
     "dev:server": "json-server --watch Server/db.json --port 3000",

@@ -9,7 +9,7 @@ function Entry() {
     <div className="entry">
       <div className="entry-header">
         <img 
-          src="/full-logo.png" 
+          src={`${import.meta.env.BASE_URL}full-logo.png`} 
           alt="ConnectPro"
           className="entry-header-logo"
         />
