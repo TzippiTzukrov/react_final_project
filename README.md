@@ -1,5 +1,7 @@
 # ConnectPro - Professional Social Network
 
+🔗 **[Live Demo](https://tzippitzukrov.github.io/react_final_project/login)**
+
 ![ConnectPro Logo](public/full-logo.png)
 
 **ConnectPro** is a LinkedIn-style professional social network built with React and Vite. Connect with developers, designers, and managers in your professional community.
