@@ -238,7 +238,7 @@
 @media (max-width: 768px) {
   .home-content {
     grid-template-columns: 1fr;
-    padding: 76px 0 16px;
+    padding: 20px 0 16px;
     gap: 8px;
   }
 }

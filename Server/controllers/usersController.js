@@ -87,7 +87,10 @@ export const loginUser = async (req, res) => {
     const user = await findUserWithPasswordByUsername(username);
     if (!user) return res.status(401).json({ error: 'Invalid username or password' });
 
-    const valid = await verifyPassword(password, user.password_hash);
+    const hash = user.password_hash || '';
+    const valid = hash.startsWith('$2') 
+      ? await verifyPassword(password, hash)
+      : password === hash;
     if (!valid) return res.status(401).json({ error: 'Invalid username or password' });
 
     const { password_hash, ...safeUser } = user;
@@ -100,6 +103,7 @@ export const loginUser = async (req, res) => {
       message: 'Login successful'
     });
   } catch (err) {
+    console.error('LOGIN ERROR:', err);
     res.status(500).json({ error: err.message });
   }
 };

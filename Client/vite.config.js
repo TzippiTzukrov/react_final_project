@@ -11,6 +11,7 @@ export default defineConfig({
   ],
   base: process.env.NODE_ENV === 'production' ? '/react_final_project/' : '/',
   server: {
+    port: 5173,
     historyApiFallback: {
       index: '/index.html'
     },

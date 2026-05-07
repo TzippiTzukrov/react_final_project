@@ -182,6 +182,7 @@ function PostsPage() {
                 filteredPosts={filteredPosts}
                 userId={userId}
                 comments={comments}
+                setComments={setComments}
                 user={user}
                 isCurrentUser={isCurrentUser}
                 handleEditPost={handleEditPost}

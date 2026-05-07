@@ -24,8 +24,7 @@ export const createComment = async (req, res) => {
   try {
     const commentData = {
       ...req.body,
-      email: req.user.email,
-      name: req.user.name
+      email: req.user.email
     };
     res.status(201).json(await insertComment(commentData));
   } catch (err) {

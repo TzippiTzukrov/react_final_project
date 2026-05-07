@@ -1,4 +1,5 @@
 import { query } from '../config/db.js';
+import pool from '../config/db.js';
 
 export const formatAlbum = (r) => ({ ...r, userId: r.user_id });
 export const formatPhoto = (r) => ({ ...r, albumId: r.album_id, thumbnailUrl: r.thumbnail_url });
@@ -32,13 +33,12 @@ export const deleteAlbumById = async (id) => {
 };
 
 export const findAllPhotos = async ({ albumId, _start, _limit }) => {
-  const params = [Number(albumId)];
-  let sql = 'SELECT * FROM photos WHERE album_id = ? ORDER BY id ASC';
+  const id = parseInt(albumId);
+  let sql = `SELECT * FROM photos WHERE album_id = ${id} ORDER BY id ASC`;
   if (_limit !== undefined) {
-    sql += ' LIMIT ? OFFSET ?';
-    params.push(Number(_limit), Number(_start) || 0);
+    sql += ` LIMIT ${parseInt(_limit)} OFFSET ${parseInt(_start) || 0}`;
   }
-  const rows = await query(sql, params);
+  const [rows] = await pool.query(sql);
   return rows.map(formatPhoto);
 };
 

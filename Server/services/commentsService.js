@@ -21,8 +21,8 @@ export const insertComment = async ({ postId, name, email, body }) => {
   return formatComment(rows[0]);
 };
 
-export const updateCommentById = async (id, { name, email, body }) => {
-  await query('UPDATE comments SET name = ?, email = ?, body = ? WHERE id = ?', [name, email, body, id]);
+export const updateCommentById = async (id, { body }) => {
+  await query('UPDATE comments SET body = ? WHERE id = ?', [body, id]);
   const rows = await query('SELECT * FROM comments WHERE id = ?', [id]);
   return rows.length ? formatComment(rows[0]) : null;
 };

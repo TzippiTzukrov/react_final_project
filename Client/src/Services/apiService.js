@@ -23,7 +23,7 @@ const handleResponse = async (response) => {
 };
 
 export const get = async (endpoint) => {
-  const response = await fetch(`${API_BASE_URL}${endpoint}`);
+  const response = await fetch(`${API_BASE_URL}${endpoint}`, { headers: getHeaders() });
   return handleResponse(response);
 };
 

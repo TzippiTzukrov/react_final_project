@@ -7,6 +7,7 @@ function PostsList({
   filteredPosts,
   userId,
   comments,
+  setComments,
   user,
   isCurrentUser,
   handleEditPost,
@@ -23,7 +24,7 @@ function PostsList({
     addComment,
     updateComment,
     deleteComment
-  } = useComments(() => {}, user);
+  } = useComments(setComments, user);
 
   useEffect(() => {
     const fetchUsers = async () => {
